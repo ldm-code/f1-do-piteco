@@ -65,9 +65,6 @@ while rodando:
             player2.resetar_partida()
             tempo=pygame.time.get_ticks()
             mensagem = ""
-
-
-    if mensagem != "":
         texto = fonte.render(mensagem, True, (0, 0, 0))
         tela.blit(texto, (100, 100))
 

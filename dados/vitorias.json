@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "resultado": "vitoria player 1",
+        "partida": 1,
+        "tempo em segundos": 14
+    },
+    {
+        "resultado": "vitoria player 1",
+        "partida": 2,
+        "tempo em segundos": 13
+    },
+    {
+        "resultado": "vitoria player 1",
+        "partida": 3,
+        "tempo em segundos": 13
+    }
+]
