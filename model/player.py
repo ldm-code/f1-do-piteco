@@ -15,14 +15,8 @@ class Player(pygame.sprite.Sprite):
                   self.start_pos=(self.rect.x,self.rect.y)
           def update(self, pressed_keys):
                   self.speed = random.randint(4,5)
-                  if pressed_keys[pygame.K_UP]:
-                       self.rect.y-=self.speed
-                  if pressed_keys[pygame.K_DOWN]:
-                      self.rect.y+=self.speed
                   if pressed_keys[pygame.K_RIGHT]:
                          self.rect.x+=self.speed
-                  if pressed_keys[pygame.K_LEFT]:
-                         self.rect.x-=self.speed
                   if pressed_keys[pygame.K_SPACE]:
                          self.rect.x+=self.speed
                   if self.rect.left>=LARGURA_MUND0:
